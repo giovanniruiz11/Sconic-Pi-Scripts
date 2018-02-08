@@ -1,8 +1,8 @@
-x= 21
-87 .times do
+x= 21 #x starts at 21
+87 .times do #the loop repeats 87 times
   play(x)
-  x=(x+1)
-  sleep 1
+  x=(x+1) #add 1 to x
+  sleep 1 #stop for 1 second 
 end
 
-sample :ambi_plano
+sample :ambi_plano #this is the sound im playing
